@@ -1,4 +1,5 @@
 # CaW-Segmentation-and-Detection
+This is the official codes and tools implementation for manuscript “A Two-Stage Convolutional Neural Network for Segmentation and Detection of Carotid Web on CT Angiography” submitted to Journal of NeuroInterventional Surgery.
 ***
 ## Software distrubution
 We provide three methods for testing, all of which provide Google Cloud links. If it is in dicom format, please use the provided script to convert it to nii.gz. The three methods are as follows:
