@@ -92,7 +92,7 @@ def web_trian_gen(raw_cta, raw_seg, dir_nnunet, stride):
     files_cta1 = sorted(p_mydata_cta.rglob("*.nii.gz"))
     files_seg = sorted(p_mydata_seg.rglob("*.nii.gz"))
     json_dict = {}
-    json_dict['name'] = "Tan Xian Zhen"
+    json_dict['name'] = "TXZ"
     json_dict['description'] = "slide web segmentation"
     json_dict['tensorImageSize'] = "4D"
     json_dict['reference'] = "TXZ"
