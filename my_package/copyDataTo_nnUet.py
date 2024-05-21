@@ -137,7 +137,7 @@ class my_cta_seg_task:
         files_cta1 = sorted(p_mydata.rglob("*cta1.nii.gz"))
         files_seg = sorted(p_mydata.rglob("*seg.nii.gz"))
         json_dict = {}
-        json_dict['name'] = "Tan Xian Zhen"
+        json_dict['name'] = "TXZ"
         json_dict['description'] = "carotid lumen and web segmentation"
         json_dict['tensorImageSize'] = "4D"
         json_dict['reference'] = "TXZ"
